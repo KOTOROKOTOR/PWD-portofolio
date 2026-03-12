@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>latihan 1 - HTML5</title>
+</head>
+<body>
+    <header>
+        
+<h1>Selamat Datang</h1>
+<p>Belajar Elemen Semantik HTML5</p>
+
+    </header>
+    <nav>
+        <a href="#tentang">tentang</a>
+        <a href="#kursus">kursus</a>
+        <a href="#kontak">kontak</a>
+        <a href="#daftar">daftar</a>
+    </nav>
+    <section id="tentang">
+        <h2>Tentang halaman ini</h2>
+        <p>ini merupakan section untuk menu tentang</p>
+    </section>
+    <section id="kursus">
+<h2>Daftar Kursus</h2>
+<table border="1">
+    <tr>
+        <th>No</th>
+        <th>Nama Kursus</th>
+        <th>Durasi</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>Dasar HTML & CSS</td>
+        <td>4 Minggu</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>JavaScript Fundamental</td>
+        <td>6 Minggu</td>
+    </tr>
+    
+</table>
+    </section>
+    <section id="kontak">
+        <h2>Hubungi Kami</h2>
+        <form action="">
+
+            <label for="">Nama: </label><input type="text"><br>
+            <br>
+             <label for="">Email: </label><input type="text"><br><br>
+             <label for="">Pesan: </label><br><textarea rows="5" cols="20"></textarea>
+            <br><br>
+            <input type="button" value="kirim">
+        </form>
+    </section>
+    <section id="daftar">
+        <h2>Pendaftaran Mahasiswa Baru di Kampus ABC</h2>
+        <form action="">
+
+            <label for="">Nama: </label><input type="text"><br>
+            <br>
+            <label for="">NIK: </label><input type="text"><br><br>
+            <label for="">Gender: </label><br>
+            <input type="radio" value="laki-laki" name="gender"> <label for="laki-laki">laki-laki</label><br>
+            <input type="radio" value="perempuan" name="gender"> <label for="perempuan">perempuan</label><br>
+            <br>
+            <label for="">Tempat lahir: </label><input type="text"><br><br>
+            <label for="">Tanggal lahir: </label>
+            <input type="date">
+            <br>
+            <br>
+                       <label for="">No HP: </label><input type="text"><br><br>
+             <label for="">Email: </label><input type="text"><br><br>
+              <label for="">Informasi dapat dari: </label><br>
+            <input type="checkbox" value="social media" name="list"> <label for="social media">social media</label><br>
+            <input type="checkbox" value="google" name="list"> <label for="google">google</label><br>
+
+            <input type="checkbox" value="teman" name="list"> <label for="teman">teman</label><br>
+                        <input type="checkbox" value="lainnya" name="list"> <label for="lainnya">lainnya</label><br>
+
+            <br>
+ <br>
+            <label for="">Jurusan: </label><br>
+            <input type="radio" value="KWU" name="Jurusan"> <label for="KWU">KWU</label><br>
+            <input type="radio" value="STI" name="Jurusan"> <label for="STI">STI</label><br>
+            <input type="radio" value="BD" name="Jurusan"> <label for="BD">BD</label><br>
+            <br>
+            <label for="">Alasan pilih jurusan ini: </label><br><textarea rows="5" cols="20"></textarea>
+            <br><br>
+             <label for="">Alasan pilih kampus ini: </label><br><textarea rows="5" cols="20"></textarea>
+            <br><br>
+            <input type="button" value="daftar">
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2026 oleh Charles</p>
+    </footer>
+</body>
+</html>
